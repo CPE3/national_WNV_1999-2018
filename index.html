@@ -334,8 +334,8 @@
 				});
 
 				// build the tooltip; NOTE: Name not populating in the map
-				const tooltip = `<b>${props['NAME']} State</b><br />
-					${props[currentYear]} Total Cases`;
+				const tooltip = `<b>${props['State_Name']}</b><br />
+					${props[currentYear]} Cases`;
 
 				// bind the tooltip to the layer
 				layer.bindTooltip(tooltip, {
@@ -369,7 +369,7 @@
 
 
 			// select div and create legend title
-			const legend = $('.legend').html("<h3><span>2006</span> Unemployment Rates</h3><ul>");
+			const legend = $('.legend').html("<h3><span>2006</span> West Nile Virus, Total Cases</h3><ul>");
 
 			// loop through the break values
 			for (let i = 0; i < breaks.length - 1; i++) {
