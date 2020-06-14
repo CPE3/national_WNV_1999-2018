@@ -1,0 +1,8 @@
+Data Sources
+
+https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html
+https://www.cdc.gov/westnile/statsmaps/cumMapsData.html
+
+https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+
+  cb_2018_us_state_5m.zip   [1.0 MB] 

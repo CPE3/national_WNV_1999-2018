@@ -1,0 +1,1461 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.10.5-A Coruña" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["North America - NAD83"],BBOX[14.92,167.65,86.46,-47.74]],ID["EPSG",4269]]</wkt>
+      <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+      <srsid>3401</srsid>
+      <srid>4269</srid>
+      <authid>EPSG:4269</authid>
+      <description>NAD83</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="./WNV_states_99-18.csv?type=csv&amp;detectTypes=no&amp;decimalPoint=,&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" providerKey="delimitedtext" legend_exp="" name="WNV_states_99-18" checked="Qt::Unchecked" id="WNV_states_99_18_c84a5fed_635f_4f0a_91bb_83518cc35d96" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./cb_2018_states_5m.geojson|layername=cb_2018_states_5m" providerKey="ogr" legend_exp="" name="cb_2018_states_5m" checked="Qt::Checked" id="cb_2018_states_5m_47787ac8_57f9_4d46_8cd7_fa1887186bec" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./cb_2018_us_state_5m/cb_2018_us_state_5m.shp" providerKey="ogr" legend_exp="" name="cb_2018_us_state_5m" checked="Qt::Unchecked" id="cb_2018_us_state_5m_bfda370d_aa9b_4fcf_94aa_cee2d4b626b8" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>cb_2018_us_state_5m_bfda370d_aa9b_4fcf_94aa_cee2d4b626b8</item>
+      <item>cb_2018_states_5m_47787ac8_57f9_4d46_8cd7_fa1887186bec</item>
+      <item>WNV_states_99_18_c84a5fed_635f_4f0a_91bb_83518cc35d96</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="1" intersection-snapping="0" tolerance="40" enabled="1" unit="1">
+    <individual-layer-settings>
+      <layer-setting type="1" units="1" tolerance="40" id="cb_2018_states_5m_47787ac8_57f9_4d46_8cd7_fa1887186bec" enabled="1"/>
+      <layer-setting type="1" units="1" tolerance="40" id="cb_2018_us_state_5m_bfda370d_aa9b_4fcf_94aa_cee2d4b626b8" enabled="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-111.5998973202370621</xmin>
+      <ymin>8.84427643227493121</ymin>
+      <xmax>-17.38187219523712201</xmax>
+      <ymax>31.39436780727492504</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["North America - NAD83"],BBOX[14.92,167.65,86.46,-47.74]],ID["EPSG",4269]]</wkt>
+        <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+        <srsid>3401</srsid>
+        <srid>4269</srid>
+        <authid>EPSG:4269</authid>
+        <description>NAD83</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="WNV_states_99-18" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="WNV_states_99_18_c84a5fed_635f_4f0a_91bb_83518cc35d96"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="cb_2018_states_5m" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="cb_2018_states_5m_47787ac8_57f9_4d46_8cd7_fa1887186bec"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="cb_2018_us_state_5m" open="true" checked="Qt::Unchecked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="cb_2018_us_state_5m_bfda370d_aa9b_4fcf_94aa_cee2d4b626b8"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer autoRefreshEnabled="0" type="vector" geometry="No geometry" wkbType="NoGeometry" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" maxScale="0" readOnly="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" minScale="1e+08" refreshOnNotifyEnabled="0">
+      <id>WNV_states_99_18_c84a5fed_635f_4f0a_91bb_83518cc35d96</id>
+      <datasource>file:./WNV_states_99-18.csv?type=csv&amp;detectTypes=no&amp;decimalPoint=,&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>WNV_states_99-18</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"State_Name"</value>
+        </property>
+      </customproperties>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="FIPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="State_Name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="1999">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2000">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2001">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2002">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2003">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2004">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2005">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2006">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2007">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2008">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2009">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2010">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2011">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2012">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2013">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2014">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2015">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2016">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2017">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="2018">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="FIPS"/>
+        <alias index="1" name="" field="State_Name"/>
+        <alias index="2" name="" field="1999"/>
+        <alias index="3" name="" field="2000"/>
+        <alias index="4" name="" field="2001"/>
+        <alias index="5" name="" field="2002"/>
+        <alias index="6" name="" field="2003"/>
+        <alias index="7" name="" field="2004"/>
+        <alias index="8" name="" field="2005"/>
+        <alias index="9" name="" field="2006"/>
+        <alias index="10" name="" field="2007"/>
+        <alias index="11" name="" field="2008"/>
+        <alias index="12" name="" field="2009"/>
+        <alias index="13" name="" field="2010"/>
+        <alias index="14" name="" field="2011"/>
+        <alias index="15" name="" field="2012"/>
+        <alias index="16" name="" field="2013"/>
+        <alias index="17" name="" field="2014"/>
+        <alias index="18" name="" field="2015"/>
+        <alias index="19" name="" field="2016"/>
+        <alias index="20" name="" field="2017"/>
+        <alias index="21" name="" field="2018"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="FIPS" expression=""/>
+        <default applyOnUpdate="0" field="State_Name" expression=""/>
+        <default applyOnUpdate="0" field="1999" expression=""/>
+        <default applyOnUpdate="0" field="2000" expression=""/>
+        <default applyOnUpdate="0" field="2001" expression=""/>
+        <default applyOnUpdate="0" field="2002" expression=""/>
+        <default applyOnUpdate="0" field="2003" expression=""/>
+        <default applyOnUpdate="0" field="2004" expression=""/>
+        <default applyOnUpdate="0" field="2005" expression=""/>
+        <default applyOnUpdate="0" field="2006" expression=""/>
+        <default applyOnUpdate="0" field="2007" expression=""/>
+        <default applyOnUpdate="0" field="2008" expression=""/>
+        <default applyOnUpdate="0" field="2009" expression=""/>
+        <default applyOnUpdate="0" field="2010" expression=""/>
+        <default applyOnUpdate="0" field="2011" expression=""/>
+        <default applyOnUpdate="0" field="2012" expression=""/>
+        <default applyOnUpdate="0" field="2013" expression=""/>
+        <default applyOnUpdate="0" field="2014" expression=""/>
+        <default applyOnUpdate="0" field="2015" expression=""/>
+        <default applyOnUpdate="0" field="2016" expression=""/>
+        <default applyOnUpdate="0" field="2017" expression=""/>
+        <default applyOnUpdate="0" field="2018" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="FIPS" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="State_Name" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="1999" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2000" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2001" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2002" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2003" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2004" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2005" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2006" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2007" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2008" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2009" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2010" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2011" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2012" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2013" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2014" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2015" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2016" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2017" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="2018" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FIPS" exp=""/>
+        <constraint desc="" field="State_Name" exp=""/>
+        <constraint desc="" field="1999" exp=""/>
+        <constraint desc="" field="2000" exp=""/>
+        <constraint desc="" field="2001" exp=""/>
+        <constraint desc="" field="2002" exp=""/>
+        <constraint desc="" field="2003" exp=""/>
+        <constraint desc="" field="2004" exp=""/>
+        <constraint desc="" field="2005" exp=""/>
+        <constraint desc="" field="2006" exp=""/>
+        <constraint desc="" field="2007" exp=""/>
+        <constraint desc="" field="2008" exp=""/>
+        <constraint desc="" field="2009" exp=""/>
+        <constraint desc="" field="2010" exp=""/>
+        <constraint desc="" field="2011" exp=""/>
+        <constraint desc="" field="2012" exp=""/>
+        <constraint desc="" field="2013" exp=""/>
+        <constraint desc="" field="2014" exp=""/>
+        <constraint desc="" field="2015" exp=""/>
+        <constraint desc="" field="2016" exp=""/>
+        <constraint desc="" field="2017" exp=""/>
+        <constraint desc="" field="2018" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column type="field" name="FIPS" hidden="0" width="-1"/>
+          <column type="field" name="State_Name" hidden="0" width="-1"/>
+          <column type="field" name="1999" hidden="0" width="-1"/>
+          <column type="field" name="2000" hidden="0" width="-1"/>
+          <column type="field" name="2001" hidden="0" width="-1"/>
+          <column type="field" name="2002" hidden="0" width="-1"/>
+          <column type="field" name="2003" hidden="0" width="-1"/>
+          <column type="field" name="2004" hidden="0" width="-1"/>
+          <column type="field" name="2005" hidden="0" width="-1"/>
+          <column type="field" name="2006" hidden="0" width="-1"/>
+          <column type="field" name="2007" hidden="0" width="-1"/>
+          <column type="field" name="2008" hidden="0" width="-1"/>
+          <column type="field" name="2009" hidden="0" width="-1"/>
+          <column type="field" name="2010" hidden="0" width="-1"/>
+          <column type="field" name="2011" hidden="0" width="-1"/>
+          <column type="field" name="2012" hidden="0" width="-1"/>
+          <column type="field" name="2013" hidden="0" width="-1"/>
+          <column type="field" name="2014" hidden="0" width="-1"/>
+          <column type="field" name="2015" hidden="0" width="-1"/>
+          <column type="field" name="2016" hidden="0" width="-1"/>
+          <column type="field" name="2017" hidden="0" width="-1"/>
+          <column type="field" name="2018" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"State_Name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyLocal="1" readOnly="0" type="vector" geometry="Polygon" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" wkbType="MultiPolygon" labelsEnabled="0">
+      <extent>
+        <xmin>-179.14730000000000132</xmin>
+        <ymin>17.87829999999999941</ymin>
+        <xmax>179.77850000000000819</xmax>
+        <ymax>71.35259999999999536</ymax>
+      </extent>
+      <id>cb_2018_states_5m_47787ac8_57f9_4d46_8cd7_fa1887186bec</id>
+      <datasource>./cb_2018_states_5m.geojson|layername=cb_2018_states_5m</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cb_2018_states_5m</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" maxx="0" minz="0" dimensions="2" maxz="0" miny="0" maxy="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join targetFieldName="STATEFP" joinLayerId="WNV_states_99_18_c84a5fed_635f_4f0a_91bb_83518cc35d96" memoryCache="1" joinFieldName="FIPS" upsertOnEdit="0" cascadedDelete="0" editable="0" dynamicForm="0"/>
+      </vectorjoins>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="243,166,178,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>NAME</value>
+          <value>"NAME"</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penWidth="0" penColor="#000000" lineSizeType="MM" backgroundAlpha="255" barWidth="5" scaleDependency="Area" minScaleDenominator="0" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" width="15" height="15" labelPlacementMethod="XHeight" enabled="0" scaleBasedVisibility="0" maxScaleDenominator="1e+08" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" sizeType="MM" penAlpha="255" opacity="1" backgroundColor="#ffffff" minimumSize="0">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" placement="1" priority="0" zIndex="0" showAll="1" dist="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option value="0" type="double" name="allowedGapsBuffer"/>
+            <Option value="false" type="bool" name="allowedGapsEnabled"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATENS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFFGEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_State_Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_1999">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2000">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2001">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2002">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2003">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2004">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2005">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2006">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2007">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2008">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2009">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2010">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2011">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2012">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2013">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2014">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2015">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2016">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2017">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WNV_states_99-18_2018">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="STATEFP"/>
+        <alias index="1" name="" field="STATENS"/>
+        <alias index="2" name="" field="AFFGEOID"/>
+        <alias index="3" name="" field="GEOID"/>
+        <alias index="4" name="" field="NAME"/>
+        <alias index="5" name="" field="WNV_states_99-18_State_Name"/>
+        <alias index="6" name="" field="WNV_states_99-18_1999"/>
+        <alias index="7" name="" field="WNV_states_99-18_2000"/>
+        <alias index="8" name="" field="WNV_states_99-18_2001"/>
+        <alias index="9" name="" field="WNV_states_99-18_2002"/>
+        <alias index="10" name="" field="WNV_states_99-18_2003"/>
+        <alias index="11" name="" field="WNV_states_99-18_2004"/>
+        <alias index="12" name="" field="WNV_states_99-18_2005"/>
+        <alias index="13" name="" field="WNV_states_99-18_2006"/>
+        <alias index="14" name="" field="WNV_states_99-18_2007"/>
+        <alias index="15" name="" field="WNV_states_99-18_2008"/>
+        <alias index="16" name="" field="WNV_states_99-18_2009"/>
+        <alias index="17" name="" field="WNV_states_99-18_2010"/>
+        <alias index="18" name="" field="WNV_states_99-18_2011"/>
+        <alias index="19" name="" field="WNV_states_99-18_2012"/>
+        <alias index="20" name="" field="WNV_states_99-18_2013"/>
+        <alias index="21" name="" field="WNV_states_99-18_2014"/>
+        <alias index="22" name="" field="WNV_states_99-18_2015"/>
+        <alias index="23" name="" field="WNV_states_99-18_2016"/>
+        <alias index="24" name="" field="WNV_states_99-18_2017"/>
+        <alias index="25" name="" field="WNV_states_99-18_2018"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STATEFP" expression=""/>
+        <default applyOnUpdate="0" field="STATENS" expression=""/>
+        <default applyOnUpdate="0" field="AFFGEOID" expression=""/>
+        <default applyOnUpdate="0" field="GEOID" expression=""/>
+        <default applyOnUpdate="0" field="NAME" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_State_Name" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_1999" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2000" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2001" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2002" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2003" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2004" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2005" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2006" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2007" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2008" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2009" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2010" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2011" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2012" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2013" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2014" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2015" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2016" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2017" expression=""/>
+        <default applyOnUpdate="0" field="WNV_states_99-18_2018" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STATEFP" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STATENS" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="AFFGEOID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="GEOID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="NAME" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_State_Name" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_1999" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2000" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2001" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2002" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2003" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2004" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2005" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2006" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2007" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2008" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2009" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2010" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2011" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2012" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2013" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2014" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2015" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2016" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2017" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="WNV_states_99-18_2018" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="STATEFP" exp=""/>
+        <constraint desc="" field="STATENS" exp=""/>
+        <constraint desc="" field="AFFGEOID" exp=""/>
+        <constraint desc="" field="GEOID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_State_Name" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_1999" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2000" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2001" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2002" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2003" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2004" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2005" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2006" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2007" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2008" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2009" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2010" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2011" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2012" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2013" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2014" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2015" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2016" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2017" exp=""/>
+        <constraint desc="" field="WNV_states_99-18_2018" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;NAME&quot;" sortOrder="0">
+        <columns>
+          <column type="field" name="STATEFP" hidden="0" width="-1"/>
+          <column type="field" name="STATENS" hidden="0" width="-1"/>
+          <column type="field" name="AFFGEOID" hidden="0" width="-1"/>
+          <column type="field" name="GEOID" hidden="0" width="-1"/>
+          <column type="field" name="NAME" hidden="0" width="453"/>
+          <column type="actions" hidden="1" width="-1"/>
+          <column type="field" name="WNV_states_99-18_State_Name" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_1999" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2000" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2001" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2002" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2003" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2004" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2005" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2006" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2007" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2008" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2009" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2010" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2011" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2012" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2013" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2014" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2015" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2016" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2017" hidden="0" width="-1"/>
+          <column type="field" name="WNV_states_99-18_2018" hidden="0" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="AFFGEOID" editable="1"/>
+        <field name="GEOID" editable="1"/>
+        <field name="NAME" editable="1"/>
+        <field name="STATEFP" editable="1"/>
+        <field name="STATENS" editable="1"/>
+        <field name="WNV_states_99-18_1999" editable="0"/>
+        <field name="WNV_states_99-18_2000" editable="0"/>
+        <field name="WNV_states_99-18_2001" editable="0"/>
+        <field name="WNV_states_99-18_2002" editable="0"/>
+        <field name="WNV_states_99-18_2003" editable="0"/>
+        <field name="WNV_states_99-18_2004" editable="0"/>
+        <field name="WNV_states_99-18_2005" editable="0"/>
+        <field name="WNV_states_99-18_2006" editable="0"/>
+        <field name="WNV_states_99-18_2007" editable="0"/>
+        <field name="WNV_states_99-18_2008" editable="0"/>
+        <field name="WNV_states_99-18_2009" editable="0"/>
+        <field name="WNV_states_99-18_2010" editable="0"/>
+        <field name="WNV_states_99-18_2011" editable="0"/>
+        <field name="WNV_states_99-18_2012" editable="0"/>
+        <field name="WNV_states_99-18_2013" editable="0"/>
+        <field name="WNV_states_99-18_2014" editable="0"/>
+        <field name="WNV_states_99-18_2015" editable="0"/>
+        <field name="WNV_states_99-18_2016" editable="0"/>
+        <field name="WNV_states_99-18_2017" editable="0"/>
+        <field name="WNV_states_99-18_2018" editable="0"/>
+        <field name="WNV_states_99-18_State_Name" editable="0"/>
+      </editable>
+      <labelOnTop>
+        <field name="AFFGEOID" labelOnTop="0"/>
+        <field name="GEOID" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+        <field name="STATEFP" labelOnTop="0"/>
+        <field name="STATENS" labelOnTop="0"/>
+        <field name="WNV_states_99-18_1999" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2000" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2001" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2002" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2003" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2004" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2005" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2006" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2007" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2008" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2009" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2010" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2011" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2012" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2013" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2014" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2015" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2016" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2017" labelOnTop="0"/>
+        <field name="WNV_states_99-18_2018" labelOnTop="0"/>
+        <field name="WNV_states_99-18_State_Name" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>NAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyLocal="1" readOnly="0" type="vector" geometry="Polygon" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" wkbType="MultiPolygon" labelsEnabled="0">
+      <extent>
+        <xmin>-179.14733999999998559</xmin>
+        <ymin>-14.55254899999999907</ymin>
+        <xmax>179.77846999999999866</xmax>
+        <ymax>71.35256099999999435</ymax>
+      </extent>
+      <id>cb_2018_us_state_5m_bfda370d_aa9b_4fcf_94aa_cee2d4b626b8</id>
+      <datasource>./cb_2018_us_state_5m/cb_2018_us_state_5m.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cb_2018_us_state_5m</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["North America - NAD83"],BBOX[14.92,167.65,86.46,-47.74]],ID["EPSG",4269]]</wkt>
+          <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" forceraster="0" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol type="fill" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="125,139,143,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="&quot;NAME&quot;" key="dualview/previewExpressions"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATENS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFFGEOID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LSAD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALAND">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AWATER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="STATEFP"/>
+        <alias index="1" name="" field="STATENS"/>
+        <alias index="2" name="" field="AFFGEOID"/>
+        <alias index="3" name="" field="GEOID"/>
+        <alias index="4" name="" field="STUSPS"/>
+        <alias index="5" name="" field="NAME"/>
+        <alias index="6" name="" field="LSAD"/>
+        <alias index="7" name="" field="ALAND"/>
+        <alias index="8" name="" field="AWATER"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STATEFP" expression=""/>
+        <default applyOnUpdate="0" field="STATENS" expression=""/>
+        <default applyOnUpdate="0" field="AFFGEOID" expression=""/>
+        <default applyOnUpdate="0" field="GEOID" expression=""/>
+        <default applyOnUpdate="0" field="STUSPS" expression=""/>
+        <default applyOnUpdate="0" field="NAME" expression=""/>
+        <default applyOnUpdate="0" field="LSAD" expression=""/>
+        <default applyOnUpdate="0" field="ALAND" expression=""/>
+        <default applyOnUpdate="0" field="AWATER" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STATEFP" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STATENS" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="AFFGEOID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="GEOID" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="STUSPS" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="NAME" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="LSAD" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="ALAND" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="AWATER" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="STATEFP" exp=""/>
+        <constraint desc="" field="STATENS" exp=""/>
+        <constraint desc="" field="AFFGEOID" exp=""/>
+        <constraint desc="" field="GEOID" exp=""/>
+        <constraint desc="" field="STUSPS" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="LSAD" exp=""/>
+        <constraint desc="" field="ALAND" exp=""/>
+        <constraint desc="" field="AWATER" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;STATEFP&quot;" sortOrder="0">
+        <columns>
+          <column type="field" name="STATEFP" hidden="0" width="-1"/>
+          <column type="field" name="STATENS" hidden="0" width="-1"/>
+          <column type="field" name="AFFGEOID" hidden="0" width="-1"/>
+          <column type="field" name="GEOID" hidden="0" width="-1"/>
+          <column type="field" name="STUSPS" hidden="0" width="-1"/>
+          <column type="field" name="NAME" hidden="0" width="-1"/>
+          <column type="field" name="LSAD" hidden="0" width="-1"/>
+          <column type="field" name="ALAND" hidden="0" width="-1"/>
+          <column type="field" name="AWATER" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="cb_2018_us_state_5m_bfda370d_aa9b_4fcf_94aa_cee2d4b626b8"/>
+    <layer id="cb_2018_states_5m_47787ac8_57f9_4d46_8cd7_fa1887186bec"/>
+    <layer id="WNV_states_99_18_c84a5fed_635f_4f0a_91bb_83518cc35d96"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest coordinateOp="+proj=noop" allowFallback="1">
+      <src>
+        <spatialrefsys>
+          <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["North America - NAD83"],BBOX[14.92,167.65,86.46,-47.74]],ID["EPSG",4269]]</wkt>
+          <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </src>
+      <dest>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </dest>
+    </srcDest>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Chris</author>
+    <creation>2020-06-09T19:09:30</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+</qgis>
