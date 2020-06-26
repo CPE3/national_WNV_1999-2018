@@ -133,6 +133,7 @@
 			float: left;
 		}
 
+
 		#ui-controls .max {
 			float: right;
 			margin-right: -15px;
@@ -146,6 +147,12 @@
 			font-size: 1.1em;
 			font-weight: bold;
 		}
+
+		.sparklines-style {
+			/*Needs CSS*/
+		}
+
+
 	</style>
 
 
@@ -157,6 +164,17 @@
 
 
 	<div id="map"></div>
+
+
+	<div id='sparklines-style'>
+		<p>County: <span></span></p>
+			  
+
+
+		
+	  </div>	
+
+
 
 
 	<div id="ui-controls">
@@ -316,6 +334,7 @@
 							color: '#53A9C6',
 							weight: 3
 						}).bringToFront();
+						
 					});
 
 					// on mousing off layer
@@ -373,7 +392,7 @@
 				layer.bindTooltip(tooltip, {
 					sticky: true
 				});
-
+				
 			});
 
 		} // end updateMap()
