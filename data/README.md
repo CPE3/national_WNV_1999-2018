@@ -1,7 +1,5 @@
-
-Final Project - MAP 673 draft
 # national_WNV_1999-2018
-# 🚀
+Final Project - MAP 673 draft
 
 ## Description
     Description: My web map will display the reported number of West Nile Virus cases, by state, from 1999 to 2018 using data from the Centers for Disease Control (CDC).	
@@ -73,4 +71,9 @@ While your answer to this question need not be definite at this point, briefly d
 ### UI Controls
 * Pop-up on slider control to show year in addition to year shown in the upper right
 * Different shape for slider control button
+
+
+
+
+
 
