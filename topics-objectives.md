@@ -59,6 +59,18 @@ While your answer to this question need not be definite at this point, briefly d
 * GitHub Pages portfolio at cpe3.github.io
 
 
+## "Wish List"
+
+### Data and Overall Concept
+* Higher resolution GeoJSON boundaries
+* Higher resolution dataset - data for individual counties
+* Better metrics for choropleth - % of total population doesn't necessarily make sense in this situation, as it would be a vanishingly small number. 
+
+
+### UI Controls
+* Pop-up on slider control to show year in addition to year shown in the upper right
+* Different shape for slider control button
+
 
 
 
