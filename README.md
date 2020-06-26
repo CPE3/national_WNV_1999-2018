@@ -48,6 +48,7 @@ While your answer to this question need not be definite at this point, briefly d
 
 ## The JS libraries you anticipate using or need (include any relevant plugins, like omnivore) and other relevant web technologies you'll be using (i.e., HTML, CSS)
 
+
 * JavaScript
     * Leaflet
     * JQuery
@@ -65,13 +66,18 @@ While your answer to this question need not be definite at this point, briefly d
 
 ### Data and Overall Concept
 * Higher resolution GeoJSON boundaries
+    * IMPLEMENTED: Originally used 1:5,000,000 resolution but changed this to 1:500,000 resolution); NOTE that more detailed boundaries create a bug
 * Higher resolution dataset - data for individual counties
 * Better metrics for choropleth - % of total population doesn't necessarily make sense in this situation, as it would be a vanishingly small number. 
+* Center map using data extent
+* Different template or css framework with room for additonal text in a sidebar
 
 
 ### UI Controls
 * Pop-up on slider control to show year in addition to year shown in the upper right
 * Different shape for slider control button
+* Sparklines
+* Dropdown options for different basemaps
 
 
 
