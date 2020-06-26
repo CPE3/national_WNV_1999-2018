@@ -52,6 +52,7 @@ While your answer to this question need not be definite at this point, briefly d
     * Leaflet
     * JQuery
     * Papa Parse 
+    * chroma
 * HTML
 * CSS
 * GitHub
