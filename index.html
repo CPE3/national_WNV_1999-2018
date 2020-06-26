@@ -150,7 +150,8 @@
 			scrollWheelZoom: true, // enable scroll wheel zoom
 			zoomSnap: .1,
 			dragging: true, // enable panning
-			zoomControl: false
+			zoomControl: false,
+
 		}
 
 		// create the Leaflet map
@@ -252,6 +253,7 @@
 			// call to draw the map
 			drawMap(states, colorize);
 
+		
 			// call to draw the legend (uncomment when function created below)
 			drawLegend(breaks, colorize);
 
@@ -334,7 +336,7 @@
 				});
 
 				// build the tooltip; NOTE: Name not populating in the map
-				const tooltip = `<b>${props['State_Name']}</b><br />
+				const tooltip = `<b>${props['State_Name']} (${currentYear}) </b><br />
 					${props[currentYear]} Cases`;
 
 				// bind the tooltip to the layer
