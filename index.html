@@ -33,10 +33,28 @@
 			border-radius: 5px;
 		}
 
+
 		h2 {
 			display: inline-block;
 			color: #001323;
 		}
+
+		h3 {
+			position: absolute;
+			z-index: 600;
+			top: 75px;
+			left: 15px;
+			padding: 6px 10px;
+			margin: 0;
+			color: whitesmoke;
+			font-size: 1.25em;
+			color: lightcoral;
+			background: rgba(25, 25, 25, 0.8);
+			border-radius: 5px;
+		}
+
+
+
 
 		#map {
 			position: absolute;
@@ -54,6 +72,12 @@
 			font-size: 1em;
 			color: #001323;
 		}
+
+		a {
+			color: lightcoral;
+			text-decoration: none;
+		}
+
 
 		.legend {
 			padding: 6px 8px;
@@ -129,7 +153,12 @@
 
 <body>
 	<h1>Mapping an Arbovirus: Timeline of West Nile Virus in the United States, 1999 to 2018</h1>
+	<h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5089063/">What is an arbovirus?</a></h3>
+
+
 	<div id="map"></div>
+
+
 	<div id="ui-controls">
 		<label>
 			<span class="min">1999</span>
@@ -139,7 +168,6 @@
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
 		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
 		crossorigin=""></script>
@@ -174,7 +202,7 @@
 
 		// AJAX request for GeoJSON data 
 		$.getJSON("data/cb_2018_states_5m.geojson", function (states) {
-			// may need to obtain higher resolution boundaries...
+
 			Papa.parse('data/WNV_states_99-18.csv', {
 
 				download: true,
@@ -254,12 +282,11 @@
 			// call to draw the map
 			drawMap(states, colorize);
 
-		
+
 			// call to draw the legend (uncomment when function created below)
 			drawLegend(breaks, colorize);
 
 		}
-
 
 
 		function drawMap(states, colorize) {
@@ -273,6 +300,8 @@
 						fillOpacity: 1,
 						fillColor: '#1f78b4'
 					};
+					
+				
 				},
 
 				//add hover/touch functionality to each feature layer
@@ -298,7 +327,6 @@
 						});
 					});
 				}
-
 
 
 
@@ -432,9 +460,6 @@
 
 		} // end createSliderUI()
 	</script>
-
-
-
 
 </body>
 
